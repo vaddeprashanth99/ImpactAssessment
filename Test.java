@@ -5,7 +5,7 @@ public class Test {
 
     static List<String> consecutiveNumbers(int[] a) {
         int length = 1;
-        List<String> list  = new ArrayList<String>();
+        List<String> list = new ArrayList<String>();
 
 
         if (a.length == 0) {
@@ -35,19 +35,8 @@ public class Test {
 
 
     public static void main(String args[]) {
-
-        // Test Case 1:
-        int[] arr1 = {1, 2, 3, 6, 7};
-        System.out.print(consecutiveNumbers(arr1));
-        System.out.println();
-
-        // Test Case 2:
-        int[] arr2 = {-1, 0, 1, 2, 5, 6, 8};
-        System.out.print(consecutiveNumbers(arr2));
-        System.out.println();
-
-        // Test Case 3:
-        int[] arr3 = {-1, 3, 4, 5, 20, 21, 25};
-        System.out.print(consecutiveNumbers(arr3));
+        
+        int[] arr = {1, 3, 6, 7, 8, 12, 13, 14, 15, 21, 22, 23, 24, 31};
+        System.out.print(consecutiveNumbers(arr));
     }
 }
